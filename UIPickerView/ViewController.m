@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additinal setup after loading the view, typically from a nib.
     UIPickerView *pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(50, 50, 200, 100)];
-    //[self.view addSubview:pickerView];
+    [self.view addSubview:pickerView];
     pickerView.delegate = self;
     pickerView.dataSource = self;
     
