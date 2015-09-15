@@ -22,8 +22,8 @@
     pickerView.delegate = self;
     pickerView.dataSource = self;
     
-    
-    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectZero];
+    [self.view addSubview:button];
     
 }
 
